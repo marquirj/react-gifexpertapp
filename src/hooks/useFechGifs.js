@@ -2,7 +2,7 @@ import {useState, useEffect} from 'react';
 import { getGifs } from '../helpers/getGifs';
 export const useFechGifs = (category) => {
     
-    const [state, setstate] = useState({
+    const [state, setState] = useState({
         data: [],
         loading: true
     });
@@ -11,7 +11,7 @@ export const useFechGifs = (category) => {
     useEffect(() => {
         getGifs(category)
         .then(img => {    
-            setstate({
+            setState({
                 data:img,
                 loading:false
             
