@@ -25,4 +25,4 @@ package-lock.json
 
 #no subir snaptshots
 src/tests/__snapshots__/
-src/test/components/__snapshots__/
+src/tests/components/__snapshots__/
