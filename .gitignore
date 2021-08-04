@@ -22,3 +22,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 package-lock.json
+
+#no subir snaptshots
+src/tests/__snapshots__/
+src/test/components/__snapshots__/
